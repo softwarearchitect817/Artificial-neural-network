@@ -1,0 +1,26 @@
+/* ************************************************************************
+Name: David Boyd and Jacob Reola
+Assignment: 09_nNetwork
+Purpose: Configuration define file
+Notes: The #define is part of the preprocessor language for C and C++
+         It is used to create preprocessor macros of declared global constants.
+         It is used to create a conditional compilation.
+         Most commonly used as to include guards.
+Date: 2018.12.11
+************************************************************************ */
+
+#define ON 1.0      // Activation bias
+#define OFF 0.0     // Activation bias
+#define OFFSOFT 0.1
+#define ONSOFT 0.9
+#define I_UNITS 2   // Number of first layer's neurons
+#define H_UNITS 2   // Number of hidden layer's neurons
+#define O_UNITS 1   // Number of output layer's neurons
+#define IOPAIRS 4   // Number of pairs in file // not used
+#define MAX_EPOCH 2000
+#define LR .15 //.42        // Learning Rate
+#define EE .5 //2.718281828 // 'e'
+#define BIAS_ACTIVATION 1.0
+#define MIN_WEIGHT -1.0
+#define MAX_WEIGHT 1.0
+
